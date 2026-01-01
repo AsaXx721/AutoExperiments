@@ -1,0 +1,1 @@
+ChatTriggers version 1.21.10
