@@ -84,7 +84,7 @@ export default new class autoExperiments {
                 if (this.isDye(item)) this.ultrasequencerOrder[item.getStackSize() - 1] = i
                 this.hasAdded = true;
                 this.clicks = 0;
-                if (this.ultrasequencerOrder.length > maxUltraSequencer && config.autoClose) {
+                if (this.ultrasequencerOrder.length > maxUltraSequencer && config.autoClose && !this.closing) {
                     this.closing = true;
                     Client.getMinecraft().currentScreen.close()
                 }
