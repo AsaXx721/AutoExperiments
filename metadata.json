@@ -1,0 +1,9 @@
+{
+    "name": "AutoExperiments",
+    "description": "Automatically does experiments for you",
+    "creator": "AsaXx",
+    "entry": "index.js",
+    "requires": [
+        "Vigilance"
+    ]
+}
