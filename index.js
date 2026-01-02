@@ -73,7 +73,7 @@ export default new class autoExperiments {
     }
 
     solveUltraSequencer() {
-        const maxUltraSequencer = config.getmaxxp ? 20 : 9 - config.serumcount;
+        const maxUltraSequencer = config.getmaxxp ? 20 : 8 - config.serumcount;
         const items = Player.getContainer().getItems()
         if (items[49]?.getType().getName().includes('Clock')) this.hasAdded = false
         if (!this.hasAdded && items[49]?.getType().getName().includes('Glowstone')) {
